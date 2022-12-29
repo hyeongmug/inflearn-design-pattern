@@ -1,6 +1,8 @@
 package memento._02_after;
 
-public class Game {
+import java.io.Serializable;
+
+public class Game implements Serializable {
 
     private int redTeamScore;
     private int blueTeamScore;
