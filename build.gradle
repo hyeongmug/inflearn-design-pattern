@@ -18,6 +18,10 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter:2.5.5'
     // PlatformTransactionManager
     implementation 'org.springframework.boot:spring-boot-starter-jdbc:2.5.5'
+    // servlet
+    implementation 'org.springframework.boot:spring-boot-starter-web:2.5.5'
+    // security
+    implementation 'org.springframework.boot:spring-boot-starter-security:2.5.5'
 }
 
 test {
