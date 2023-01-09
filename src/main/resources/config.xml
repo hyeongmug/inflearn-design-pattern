@@ -10,4 +10,6 @@
     <bean id="hello" class="java.lang.String">
         <constructor-arg value="hello"/>
     </bean>
+
+    <bean id="whiteship" class="abstract_factory._03_java.ShipFactory"></bean>
 </beans>
